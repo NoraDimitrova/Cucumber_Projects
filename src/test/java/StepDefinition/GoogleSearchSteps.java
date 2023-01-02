@@ -53,8 +53,8 @@ public class GoogleSearchSteps {
     public void user_is_navigated_to_search_results() {
         System.out.println("Inside Step - user is navigated to search results");
         driver.getPageSource().contains("Automation Step by Step: NEVER STOP LEARNING");
-//        driver.close();
-//        driver.quit();
+        driver.close();
+        driver.quit();
     }
 
 
